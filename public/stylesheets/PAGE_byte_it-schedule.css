@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+table {
+  border-collapse: collapse;
+}
+table th, table td {
+  padding: 0.8rem;
+  text-align: center;
+  border: 1px solid black;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1rem;
+}
+table th {
+  font-weight: bold;
+}
+table .time {
+  background: #00202A;
+  color: white;
+}
+table .timings td {
+  background: #FAFAFA;
+}
+table .timings td:nth-child(odd) {
+  /*background: $bg;*/
+}
+table .timings td:nth-child(even) {
+  /*background: $medium_bg;*/
+}
+
+.box {
+  width: 2rem;
+  height: 2rem;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0.4rem 1rem;
+  flex: 1;
+  border-radius: 2.5rem;
+}
+
+.information {
+  font-family: "Roboto Mono", monospace;
+  font-size: 0.9rem;
+  display: flex;
+}
+.information div {
+  flex: 1;
+}
+
+.ev {
+  border: 1px solid black;
+}
+
+.jr-lib {
+  background-color: #feff58;
+}
+
+.sr-lib {
+  background-color: orange;
+}
+
+.sr-lab {
+  background-color: #CE93D8;
+}
+
+.pr-lab {
+  background-color: #CDDC39;
+}
+
+.md-lab {
+  background: #c7ff00;
+}
+
+.sk-rink {
+  background: #8bffc7;
+}
+
+.recep {
+  background: #8dccc7;
+}
+
+.audi {
+  background: #ff9994;
+}
+
+.break {
+  background: #FFFFFF;
+}
+
+/*# sourceMappingURL=PAGE_byte_it-schedule.css.map */

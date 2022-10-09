@@ -1,0 +1,28 @@
+@import '_colors';
+@import '_byte_it_ad';
+@import '_fonts';
+
+main {
+	background-color: $dark_accent;
+}
+
+.toggle {
+	cursor: pointer;
+	border: none !important;
+	&> *{
+		transition: opacity .4s;
+	}
+}
+.close {
+	color: white; 
+	float: right;
+	font-size: 5rem;
+	margin-right: 3rem;
+	transition: all .8s;
+	cursor: pointer;
+}
+@media screen and (max-width: 550px){
+	main{
+		background-color: transparent !important;
+	}
+}

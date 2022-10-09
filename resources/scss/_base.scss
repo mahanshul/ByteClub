@@ -1,0 +1,96 @@
+@import '_colors';
+@import '_fonts';
+@import '_animations';
+
+*
+{
+	box-sizing: border-box;
+	transition-property: none;
+}
+
+html
+{
+	height: 100%;
+	width: 100%;
+}
+
+
+html, body
+{
+	margin: 0;
+}
+
+#wrapper
+{
+	display: block;
+	width: 100%;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p
+{
+	margin: 1.5rem 0;
+}
+
+.button-link
+{
+	@extend .transition-short;
+	line-height: 1;
+	display: inline-block;
+	font-size: 2rem;
+	border-style: solid;
+	//border-size: 0.125rem;
+	border-radius: 0.5rem;
+	text-decoration: none;
+	transition-property: color, background-color;
+}
+
+.box-shadow-1
+{
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+}
+
+.box-shadow-2
+{
+	box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+}
+
+.box-shadow-3
+{
+	box-shadow: 0 6px 10px 0 rgba(0,0,0,0.14), 0 1px 18px 0 rgba(0,0,0,0.12), 0 3px 5px -1px rgba(0,0,0,0.3);
+}
+
+a
+{
+	@extend .transition-short;
+	transition-property: color;
+	/*color: black;*/
+	font-weight: 500;
+	text-decoration: underline;
+	// opacity: 0.75;
+}
+a:hover
+{
+	color: $dark_accent;
+}
+.spaced {
+	padding: 3rem;
+}
+
+blockquote
+{
+	font-size: 125%;
+	font-style: italic;
+}
+
+@media screen and (max-width : 450px){	
+.separator{
+	display: none !important;
+}
+#copyright{
+	margin: 4rem 2rem 0 2rem !important;
+}
+.spaced{
+	padding: 0.5rem !important;
+}
+}

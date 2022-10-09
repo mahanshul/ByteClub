@@ -1,0 +1,1 @@
+<?= component('timer', array('name' => 'quick_byte', 'from' => 'May 15 2019 08:30:00 GMT+0530', 'to' => 'May 22 2019 23:59:59 GMT+0530')); ?>

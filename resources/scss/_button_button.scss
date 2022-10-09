@@ -1,0 +1,66 @@
+.button-button
+{
+	height: 2.75rem;
+	padding: 0;
+	border: 0;
+	background-color: transparent;
+	cursor: pointer;
+	.container
+	{
+		@extend .transition-short;
+		transition-property: box-shadow, background-color, color;
+		border-radius: 0.5rem;
+		overflow: hidden;
+		height: 100%;
+		border: solid 0.125rem $dark_accent;
+		color: $dark_accent;
+		> *
+		{
+			display: inline-block;
+			height: 100%;
+			vertical-align: top;
+		}
+		.text
+		{
+			@extend .font-standard;
+			font-weight: 700;
+			font-size: 1.25rem;
+			line-height: 2.5rem;
+			padding: 0 1rem;
+		}
+		.icon-container
+		{
+			width: 2rem;
+			position: relative;
+			right: -0.5rem;
+			.icon
+			{
+				height: 100%;
+				width: 100%;
+				line-height: 2.5rem;
+				text-align: right;
+				font-size: 1.5rem;
+			}
+		}
+	}
+}
+
+.button-button:focus
+{
+	outline: none;
+}
+
+.button-button:hover > .container
+{
+	background-color: $dark_accent;
+	color: white;
+	@extend .box-shadow-2;
+}
+@media screen and (max-width: 550px){
+	.button-button{
+		margin-left: calc((100% - 188px) / 2);
+	}
+	.info{
+		display:none;
+	}
+}

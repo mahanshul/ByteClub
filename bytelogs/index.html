@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Byte Logs - Under Construction</title>
+	<style>
+		body {
+			background-color: black;
+			color: white;
+			background-image: url("bits.png");
+			background-repeat: repeat;
+			/* background-size: cover; */
+		}
+		a {
+			/* text-decoration: none; */
+			color: white;
+		}
+		.const {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			font-family: "Consolas", "courier-new", "courier", monospace, sans-serif;
+			font-size: 40px;
+			text-align: center;
+			width: 80vw;
+		}
+		.green {
+			color: #00cc00;
+		}
+		.dull {
+			color: rgba(255, 255, 255, .7);
+		}
+		.cursor {
+			-webkit-animation: 1s blink infinite;
+		}
+		@-webkit-keyframes "blink" {
+			from, to {
+				color: transparent;
+			}
+			50% {
+				color: white;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="const">
+		I am currently under <span class="green">construction</span>.<br>
+		Thank you for your patience.<span class="cursor">_</span><br><br>
+		<a href="javascript::void(0);" onclick="back();">Back</a>
+	</div>
+	<script>
+		function back() {
+			window.history.back();
+		}
+	</script>
+</body>
+</html>

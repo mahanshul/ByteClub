@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,500,700|Saira:400,500,600,700|Saira+Condensed:300,400,600");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,500,700|Saira:400,500,600,700|Saira+Condensed:300,400,600");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+#countdown {
+  text-align: center;
+}
+#countdown > div {
+  display: inline-block;
+}
+#countdown > div .big {
+  font-size: 2rem;
+}
+#countdown > div .small {
+  font-size: 1rem;
+  opacity: 0.65;
+}
+#countdown .colon {
+  font-size: 4rem;
+  padding: 0 1rem;
+  position: relative;
+  top: -0.25rem;
+  opacity: 0.85;
+}
+#countdown .happening {
+  color: lime;
+}
+#countdown .finished {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+@font-face {
+  font-family: "Arciform";
+  src: url("/public/fonts/arciform.otf");
+}
+.font-title, #byte_it_ad .title, h1 {
+  font-family: "Arciform", sans-serif;
+  font-weight: 400;
+}
+
+.font-standard, body {
+  font-family: "Saira", sans-serif;
+  font-weight: 400;
+}
+
+.font-condensed {
+  font-family: "Saira Condensed", sans-serif;
+  font-weight: 400;
+}
+
+.font-text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  text-align: justify;
+}
+
+h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+.transition-short, a, .button-link, #byte_it_ad .buttons a {
+  transition-duration: 0.15s;
+}
+
+* {
+  box-sizing: border-box;
+  transition-property: none;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+html, body {
+  margin: 0;
+}
+
+#wrapper {
+  display: block;
+  width: 100%;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 1.5rem 0;
+}
+
+.button-link, #byte_it_ad .buttons a {
+  line-height: 1;
+  display: inline-block;
+  font-size: 2rem;
+  border-style: solid;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  transition-property: color, background-color;
+}
+
+.box-shadow-1 {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+.box-shadow-2 {
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+}
+
+.box-shadow-3 {
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3);
+}
+
+a {
+  transition-property: color;
+  /*color: black;*/
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #00202A;
+}
+
+.spaced {
+  padding: 3rem;
+}
+
+blockquote {
+  font-size: 125%;
+  font-style: italic;
+}
+
+@media screen and (max-width: 450px) {
+  .separator {
+    display: none !important;
+  }
+
+  #copyright {
+    margin: 4rem 2rem 0 2rem !important;
+  }
+
+  .spaced {
+    padding: 0.5rem !important;
+  }
+}
+#byte_it_ad {
+  background: url("/public/graphics/bits.png"), #00202A;
+  transition: background-color 1s;
+  color: white;
+  text-align: center;
+}
+#byte_it_ad .title {
+  font-size: 3.5rem;
+  text-transform: none;
+  margin-bottom: 0;
+}
+#byte_it_ad .quote {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  opacity: 0.7;
+  text-align: center;
+}
+#byte_it_ad .date {
+  opacity: 0.9;
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+#byte_it_ad .buttons {
+  margin: 0;
+}
+#byte_it_ad .buttons a {
+  font-size: 1.25rem;
+  border-color: white;
+  color: white;
+  margin: 1rem 0.5rem;
+  padding: 0.75rem 1rem;
+  vertical-align: middle;
+}
+#byte_it_ad .buttons a .playbuttontext {
+  display: inline-block;
+  margin: auto;
+}
+#byte_it_ad .buttons a[disabled=true] {
+  opacity: 0.5;
+  cursor: default;
+}
+#byte_it_ad .buttons a[disabled=false]:hover {
+  background-color: white;
+  color: #00202A;
+}
+#byte_it_ad .buttons #countdown {
+  background: url("/public/graphics/bits.png"), #00202A;
+  color: white;
+  display: inline-block;
+  padding: 0 2rem;
+  border-radius: 0.5rem !important;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 550px) {
+  #byte_it_ad {
+    background: white !important;
+    color: #000 !important;
+  }
+
+  #byte_it_logo {
+    mix-blend-mode: difference;
+  }
+
+  .buttons {
+    mix-blend-mode: difference !important;
+  }
+}
+@font-face {
+  font-family: "Arciform";
+  src: url("/public/fonts/arciform.otf");
+}
+.font-title, h1, #byte_it_ad .title {
+  font-family: "Arciform", sans-serif;
+  font-weight: 400;
+}
+
+.font-standard, body {
+  font-family: "Saira", sans-serif;
+  font-weight: 400;
+}
+
+.font-condensed {
+  font-family: "Saira Condensed", sans-serif;
+  font-weight: 400;
+}
+
+.font-text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  text-align: justify;
+}
+
+h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+main {
+  background-color: #00202A;
+}
+
+.toggle {
+  cursor: pointer;
+  border: none !important;
+}
+.toggle > * {
+  transition: opacity 0.4s;
+}
+
+.close {
+  color: white;
+  float: right;
+  font-size: 5rem;
+  margin-right: 3rem;
+  transition: all 0.8s;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 550px) {
+  main {
+    background-color: transparent !important;
+  }
+}
+
+/*# sourceMappingURL=PAGE_byte_it-home.css.map */

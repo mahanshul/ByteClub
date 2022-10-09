@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<event name="Task 1: Application UI" category="Open">
+
+		<list name="Rules">
+		
+		<r>Saint will be launching Voithos along with an application. The application will have the ability to set alarms, activate Voithos, monitor assistant usage, stream and play music on Voithos and connect to external speakers.</r>
+		</list>
+		<list name="Preliminary Round">
+	
+			<r>The prompt will be revealed on Jul 12 2019, 00:00:00 IST at <link url="//byteclub.in/byte_it/creative_prelim">byteclub.in/byte_it/creative_prelim</link> our Facebook page and </r>
+			<r>Creators of the top submissions will be invited to compete in the final round.</r>
+		</list>
+		<list name="Onsite Round">
+						<r>The teams will have to create something from scratch.</r>
+						<r>The topics and requirements will be announced on the spot.</r>
+						<r>Each team will be provided 2 machines with Subrme Text 3, Google Chrome, Sass, Internet Access.</r>
+						<r>Each team can bring upto 3 laptops along with them.</r>
+						<r>Teams are encouraged to bring their own portable internet routers.</r>
+
+		</list>
+	</event>
+	<event name="Programming" category="Open">
+	<brief>Code. Compile. Conquer.</brief>
+		<r>Age Restriction: none</r>
+		<r>Teams per institution: 1</r>
+		<r>Members per team: 2</r>
+		<list name="Programming Environment">
+			<r>Permitted languages: C, C++, C#, Java, Objective C, Javascript, Python, Ruby, PHP, Lua, ERLANG, Go, Clojure, R, Swift. For more details, visit <link url ="//hackerrank.com/environment">hackerrank.com/environment</link></r>
+		</list>
+		<list name="Preliminary Round">
+		<r>The contest will be held from Jul 18 2019, 17:00:00 IST to Jul 18 2018, 19:29:59 IST.</r>
+		<r>Further details will be announced on Jul 14 2019, 00:00:00 IST at <link url="//byteclub.in/byte_it/programming_prelim">byteclub.in/byte_it/programming_prelim</link> our Facebook page and</r>
+		<r>Top programmers will be invited to compete in the final round.</r>
+		</list>
+		<list name="Final Round">
+						<r>One or many surprise programming task(s) shall be given.</r>
+						<r>The format will not be of the typical Competitive Programming event.</r>
+						<r>The actual format shall be revealed on the day of the event.</r>
+						<r>The participants can be asked to code in any arbitrary language(s). Learning resources and documentation for each allowed language will be provided.</r>
+		</list>
+	</event>
+			<event name="Group Discussion" category="Open">
+	<brief>Think Different.</brief>
+		<r>Teams per institution: 1</r>
+		<r>Members per team: 1</r>
+		<list name="Rules">
+			<r>Participants will be provided a theme on which they will present their thoughts and will counter other opinions.</r>
+			<r>The topic will be provided on the spot.</r>
+			<r>The participants are encouraged to bring their own devices for any kind of research they might want to do.</r>
+		</list>
+	</event>
+		<event name="Robotics" category="OPEN">
+	<brief>Brawn over Brains.</brief>
+	<r>Teams per institution: max 1</r>
+		<r>Members per team: 2</r>
+		<list name="Task">
+			<r>Create a fighter robot (wired or wireless). If wired then the length of the wire should be at least 5m.</r>
+			<r>The robots will fight in a specified  arena. The specifications and the shape will be uploaded a week prior to the competition on our facebook page.</r>
+			<r>The task of the robot will be to immobilise the opponent’s robot or give maximum damage to it.</r>
+			<r>Your robot will be declared defeated on any of the following events:</r>
+			<list>
+				<r>Any part of the robot touching the ground, such as a wheel, comes out of the arena. In case of a robot that does not touch the ground at all, its entire projection on the ground will be considered touching the ground.</r>
+				<r>Your robot is unable to locomote, even when instructed to do so by the referee.</r>
+				<r>The robot raises a pre-decided white flag, or its human operator explicitly speaks a pre-decided safe word, such as Mercy!.</r>
+			</list>
+			</list>
+			<list name="Restrictions">
+				<r>Your robot must be your own creation. However, off-the-shelf parts, such as motors, micro-controllers, and sensors are permitted for obvious reasons. The design must be your own, and you must be able to justify it as your own creation.</r>
+				<r>Robots can have any kinds of cutters, flippers, saws, hammers, lifting devices etc as weapon, with the following exceptions :</r>
+				<list>
+								<r>Acid based Weapons</r>
+								<r>EMP generators</r>
+								<r>Any kind of flammable rquid</r>
+								<r>Flame-producing weapons</r>
+								<r>Any kind of explosive material.</r>
+								<r>Nets, glue or any other entanglement devices</r>
+								<r>High power magnets or electromagnets, Radio jammers</r>
+								<r>Pneumatic weapons</r>
+				</list>
+			
+				<r>
+				The dimensions of the robot at the start of each round is restricted to the following:
+				</r>
+				<list>	
+				<r>Length and breadth should be under 50cm.</r>
+				<r>The Robot should not weigh more than 30kg</r>
+				<r>Each round will last for 3 minutes.</r>
+				</list>
+				</list>
+			
+			<list name="Winning Criteria">
+					<r>The team with the maximum score will be declared the winner for that particular round.</r>          
+					<r>The team will be awarded points on the following events: 
+						<list>
+					<r>If they cause significant damage to the opponents robot such that it malfunctions.</r>
+					<r>If they pin the opponent robot on the wall for 10 seconds.</r>
+						</list></r>
+					<r>If a team’s robot is immobilised then the other team will be declared the winner immediately.</r>
+			</list>
+		
+		
+	</event>
+
+	<event name="Surprise" category="Open">
+		<brief>Riddle me bit, riddle me byte.</brief>
+		<r>Teams per institution: max 1</r>
+		<r>Members per team: 2</r>
+		<list name="Preliminary Round">
+			<r>Online prelims will be held on 22 July 2019, 17:00:00 IST.</r>
+					<r>The task will be revealed to participants through mail and it will also be available on our Facebook page and <link url="https://byteclub.in/byte_it/surprise_prelim">byteclub.in/byte_it/surprise_prelim</link> </r>
+					<r>Top teams will qualify for the onsite final round.</r>
+		</list>
+		<list name="Onsite Round">
+
+			<r>Surprise, surprise!</r>
+		</list>
+	</event>
+
+	<event name="Capture The Flag" type="Cryptic" category="OPEN">
+	<brief>Decode and Encode, to find the real pr0 code.</brief>
+	<r>Teams per institution: max 1</r>
+		<r>Members per team: ∞</r>
+		<list name="Rules">
+						<r>Cryptic questions in an online, capture-the-flag format.</r>
+						<r>The contest will be held from Jul 21 2019, 00:00:00 IST to Jul 22 2019, 23:59:59 IST.</r>
+						<r>Register the team before 21 July, 2019 at <link url="https://ctf.byteclub.in">ctf.byteclub.in</link></r>
+						<r>Gather all the help you need.</r>
+						<r>CTF Rules and Ethics:</r>
+							<list>
+								<r>COOPERATION: No cooperation between teams with independent accounts. Sharing of keys or providing revearng hints to other teams is cheating, don’t do it.</r>
+								<r>
+									ATTACKING SCOREBOARD: No attacking the competition infrastructure. If bugs or vulns are found, please alert the competition organizers immediately.
+
+									
+								</r>
+								<r>SABOTAGE: Absolutely no sabotaging of other competing teams, or in any way hindering their independent progress.</r>
+								<r>BRUTEFORCING: No brute forcing of challenge flag/ keys against the scoring site.</r>
+								<r>DENIAL OF SERVICE: DoSing the CTF platform or any of the challenges is forbidden.
+</r>
+							</list>
+		</list>
+
+	</event>
+	<event name="Tech Quiz" category="OPEN">
+	<brief>Are you the Quiz-Pro-Duo?</brief>
+	<r>Teams per institution: max 2</r>
+		<r>Members per team: 2</r>
+		<list name="Rules">
+			<r>The quiz will test Tech Industry knowledge and Computer Science Skills</r>
+			<r>There will be two, on-the-spot rounds: Written round,On-stage round. Top quizzers from Round 1 will battle it out in Round 2..</r>
+		</list>
+	</event>
+	<event name="Film Making" category="OPEN">
+	<brief>Story through the camera.</brief>
+	<r>Teams per institution: max 1</r>
+		<r>Members per team: 5</r>
+		<list name="Preliminary Round">
+			<r>Plagiarism is strictly prohibited. Any copyright violation shall be highly criticized, even if it is termed as “Fair Use”. Media can be taken from the internet if and only if it has a Creative Commons or similar license. No media licenses should be violated.</r>
+			<r>The video should not be more than 5 minutes long.</r>
+			<r>The theme for the video will be released on our website and facebook page by 10 July 2019.</r>
+			<r>Top submissions will be called for the onsite round.</r>
+		</list>
+		<list name="Final Round">
+			<r>Each team will have 8 minutes (including the duration of the video) to present their movie.</r>
+			<r>A participant from each team will explain the basic idea behind their video in the presentation.</r>
+			<r>Only 2 members may represent their team in the Onsite Round. The winners will be awarded prizes for all the participants.</r>
+		</list>
+
+	</event>
+		<event name="Upcycle" type="ATL" category="6-8">
+	<brief>Revamp. Repair. Restore.</brief>
+	<r>Teams per institution: max 1</r>
+		<r>Members per team: 2</r>
+		<list name="Task">
+			<r>Participants have to create a useful product with computer waste such as old keyboards, old CPUs etc.</r>
+			<r>Participants are required to present their product to the judges.</r>
+		</list>
+		<list name="Judgement Criteria">
+			<r>Creativity</r>
+			<r>Presentation</r>
+			<r>Utilisation of Waste</r>
+			<r>Originality</r>
+		</list>
+
+	</event>
+	<event name="Innovation Hackathon" type="ATL" category="OPEN">
+	<brief>"Innovation is the only way to win."</brief>
+	<r>Teams per institution: max 1</r>
+		<r>Members per team: 2</r>
+		<list name="Task">
+			<r>A theme/problem will be provided to the teams on the spot for which teams will have to develop a solution over 24 hours.</r>
+			<r>The solution can be presented as a media presentation, model or a software/ hardware prototype.</r>
+			<r>Participants have to bring their own devices with requisite softwares preinstalled.</r>
+			<r>Internet access will be provided.</r>
+		</list>
+		<list name="Judgement Criteria">
+			<r>Creativity</r>
+			<r>Presentation</r>
+			<r>Real world application</r>
+			<r>Originality</r>
+			<r>Technical Interview</r>
+		</list>
+
+	</event>
+</root>

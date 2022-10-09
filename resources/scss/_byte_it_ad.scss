@@ -1,0 +1,80 @@
+@import '_timer';
+@import '_base';
+#byte_it_ad
+{
+	background: url('/public/graphics/bits.png') , $dark_accent;
+	transition: background-color 1s;
+	color: white;
+	text-align: center;
+	.title
+	{
+		@extend .font-title;
+		font-size: 3.5rem;
+		text-transform: none;
+		margin-bottom: 0;
+	}
+	.quote
+	{
+		margin-top: 0.5rem;
+		margin-bottom: 0.5rem;
+		font-size: 1.5rem;
+		opacity: 0.7;
+		text-align: center;
+	}
+	.date
+	{
+		opacity: 0.9;
+		font-size: 2rem;
+		margin-bottom: 0;
+	}
+	.buttons
+	{
+		margin: 0;
+		a
+		{
+			@extend .button-link;
+			font-size: 1.25rem;
+			border-color: white;
+			color: white;
+			margin: 1rem 0.5rem;
+			padding: 0.75rem 1rem;
+			vertical-align: middle;
+			.playbuttontext{
+				display: inline-block;
+				margin: auto;
+			}
+		}
+		a[disabled='true']
+		{
+			opacity: 0.5;
+			cursor: default
+		}
+		a[disabled='false']:hover
+		{
+			background-color: white;
+			color: $dark_accent;
+		}
+		#countdown
+		{
+		background: url('/public/graphics/bits.png') , $dark_accent;
+		color: white;
+		display: inline-block;
+		padding: 0 2rem;
+		border-radius: 0.5rem!important;
+		padding: 1rem;
+		}
+	}
+	
+}
+@media screen and (max-width: 550px){
+	#byte_it_ad{
+		background: rgb(255, 255, 255) !important;
+		color: #000 !important;
+	}
+	#byte_it_logo{
+		mix-blend-mode: difference;
+	}
+	.buttons{
+		mix-blend-mode: difference !important;
+	}
+}

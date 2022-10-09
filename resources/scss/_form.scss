@@ -1,0 +1,192 @@
+@import '_button_button';
+
+fieldset
+{
+	outline: none;
+	border-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.form-field
+{
+	margin: 1rem 0;
+	overflow: hidden;
+	position: relative;
+	.normal
+	{
+		border: solid 0.125rem;
+		border-radius: 0.5rem;
+		> *
+		{
+			display: inline-block;
+			height: 100%;
+			vertical-align: top;
+		}
+		.left
+		{
+			height: 2.75rem;
+			width: 3.5rem;
+			position: relative;
+			.icon
+			{
+				font-size: 2rem;
+				position: absolute;
+				top: 0.375rem;
+				left: 0.75rem;
+			}
+		}
+		.right
+		{
+			width: calc(100% - 3.5rem);
+			height: auto;
+			position: relative;
+			input, textarea
+			{
+				font-family: inherit;
+				font-size: 1rem;
+				font-weight: 500;
+				border-style: none;
+				outline: none;
+				background-color: transparent;
+			}
+			input
+			{
+				height: 2.75rem;
+				line-height: 2.75rem;
+				width: 100%;
+				display: inline-block;
+				color: inherit;
+				line-height: 3rem;
+				padding: 0;
+				padding-right: 2.25rem;
+			}
+			textarea
+			{
+				width: 100%;
+				resize: none;
+				color: inherit;
+				overflow: hidden;
+				padding: 1rem;
+				padding-right: 1.5rem;
+				line-height: 1.5rem;
+				display: block;
+			}
+			textarea::placeholder
+			{
+			}
+			input::placeholder, textarea::placeholder
+			{
+			}
+			
+		}
+		.status-icon
+		{
+			width: 1.5rem;
+			height: 2.75rem;
+			position: absolute;
+			top: 0rem;
+			right: 0.375rem;
+			.icon.required
+			{
+				@extend .font-standard;
+				position: absolute;
+				left: 0;
+				font-size: 2rem;
+				height: 1.25rem;
+				width: 100%;
+				text-align: center;
+				line-height: 2rem;
+				top: 0.75rem;
+				font-weight: 700;
+				color: rgba(255,0,0,0.5);
+			}
+			.icon.success
+			{
+				line-height: 2.75rem;
+				font-size: 1.5rem;
+				color: rgba(0,150,0,0.75);
+			}
+		}
+	}
+	.normal.textarea
+	{
+		.right
+		{
+			width: 100%;				
+		}
+		.status-icon
+		{
+			top: 0.5rem;
+		}
+	}
+	> .error
+	{
+		font-weight: 600;
+		color: black;
+		display: inline-block;
+		width: 100%;
+		padding: 0 0.5rem;
+		padding-left: 4rem;
+		line-height: 2rem;
+		text-align: left;
+	}
+	.warning-icon
+	{
+		display: block;
+		position: absolute;
+		width: 2rem;
+		height: 2rem;
+		bottom: 0rem;
+		left: 2rem;
+		.icon.error
+		{
+			position: absolute;
+			font-size: 1.5rem;
+			left: 0.25rem;
+			top: 0.25rem;
+			color: orange;
+		}
+	}
+}
+
+.form-field
+{
+	.icon.error, .icon.required, .icon.success
+	{
+		opacity: 0;
+	}
+}
+
+.form-field.required
+{
+	.icon.required
+	{
+		opacity: 1;
+	}
+}
+
+.form-field.error
+{
+	.icon.error
+	{
+		opacity: 1;
+	}
+}
+
+.form-field.valid
+{
+	.icon.required, .icon.error
+	{
+		opacity: 0;
+	}
+	.icon.success
+	{
+		opacity: 1;
+	}
+}
+
+.form-field-textarea
+{
+	height: auto;
+}

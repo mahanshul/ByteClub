@@ -1,0 +1,93 @@
+@import 'colors';
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+$jr-lib: #feff58;
+$sr-lib: orange;
+$sr-lab: #CE93D8;
+$md-lab: #c7ff00;
+$pr-lab: #CDDC39;
+$sk-rink: #8bffc7;
+$recep: #8dccc7;
+$audi : #ff9994;
+
+table {
+	border-collapse: collapse;
+	th, td {
+		padding: 0.8rem;
+		text-align: center;
+		border: 1px solid black;
+		font-family: "Roboto Mono", monospace;
+		font-size: 1rem;
+	}
+	th {
+		font-weight: bold;
+	}
+	.time {
+		background: $dark_accent;
+		color: white;
+	}
+	.timings td {
+		& {
+			background: $medium_bg;
+		}
+
+		&:nth-child(odd) {
+			/*background: $bg;*/
+		}
+
+		&:nth-child(even) {
+			/*background: $medium_bg;*/
+		}
+	}
+}
+
+.box {
+		width: 2rem;
+		height: 2rem;
+		display: inline-block;
+		text-align: center;
+		vertical-align: middle;
+		margin: 0.4rem 1rem;
+		flex:1;
+		border-radius: 2.5rem;
+}
+
+.information {
+	font-family: "Roboto Mono", monospace;
+	font-size: 0.9rem;
+	display: flex;
+	div {
+		flex: 1;
+	}
+}
+
+.ev {
+	border: 1px solid black;
+}
+.jr-lib {
+	background-color: $jr-lib;
+}
+.sr-lib {
+	background-color: $sr-lib;
+}
+.sr-lab {
+	background-color: $sr-lab;
+}
+.pr-lab {
+	background-color: $pr-lab;
+}
+.md-lab {
+	background: $md-lab;
+}
+.sk-rink{
+	background: $sk-rink;
+}
+.recep {
+	background: $recep;
+}
+.audi {
+	background: $audi;
+}
+
+.break {
+	background: $bg;
+}

@@ -1,0 +1,1 @@
+<?=component("quick_byte_ad");?>

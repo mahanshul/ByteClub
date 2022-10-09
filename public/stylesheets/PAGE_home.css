@@ -1,0 +1,504 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,500,700|Saira:400,500,600,700|Saira+Condensed:300,400,600");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,500,700|Saira:400,500,600,700|Saira+Condensed:300,400,600");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@font-face {
+  font-family: "Arciform";
+  src: url("/public/fonts/arciform.otf");
+}
+.font-title, .home #intro #title .inner, #byte_it_ad .title, h1 {
+  font-family: "Arciform", sans-serif;
+  font-weight: 400;
+}
+
+.font-standard, body {
+  font-family: "Saira", sans-serif;
+  font-weight: 400;
+}
+
+.font-condensed, .home #intro #subtitle .inner {
+  font-family: "Saira Condensed", sans-serif;
+  font-weight: 400;
+}
+
+.font-text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  text-align: justify;
+}
+
+h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+.transition-short, a, .button-link, #byte_it_ad .buttons a, #map .overlay a {
+  transition-duration: 0.15s;
+}
+
+* {
+  box-sizing: border-box;
+  transition-property: none;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+html, body {
+  margin: 0;
+}
+
+#wrapper {
+  display: block;
+  width: 100%;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 1.5rem 0;
+}
+
+.button-link, #byte_it_ad .buttons a, #map .overlay a {
+  line-height: 1;
+  display: inline-block;
+  font-size: 2rem;
+  border-style: solid;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  transition-property: color, background-color;
+}
+
+.box-shadow-1 {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+.box-shadow-2 {
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+}
+
+.box-shadow-3 {
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3);
+}
+
+a {
+  transition-property: color;
+  /*color: black;*/
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #00202A;
+}
+
+.spaced {
+  padding: 3rem;
+}
+
+blockquote {
+  font-size: 125%;
+  font-style: italic;
+}
+
+@media screen and (max-width: 450px) {
+  .separator {
+    display: none !important;
+  }
+
+  #copyright {
+    margin: 4rem 2rem 0 2rem !important;
+  }
+
+  .spaced {
+    padding: 0.5rem !important;
+  }
+}
+#map {
+  position: relative;
+}
+#map > * {
+  width: 100%;
+  height: 18rem;
+}
+#map .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  text-align: center;
+}
+#map .overlay a {
+  padding: 1rem 2rem;
+  margin: 6.875rem 0;
+  color: white;
+  border-color: white;
+}
+#map .overlay a:hover {
+  background-color: white;
+  color: black;
+}
+#map img {
+  object-fit: cover;
+  display: block;
+}
+
+#countdown {
+  text-align: center;
+}
+#countdown > div {
+  display: inline-block;
+}
+#countdown > div .big {
+  font-size: 2rem;
+}
+#countdown > div .small {
+  font-size: 1rem;
+  opacity: 0.65;
+}
+#countdown .colon {
+  font-size: 4rem;
+  padding: 0 1rem;
+  position: relative;
+  top: -0.25rem;
+  opacity: 0.85;
+}
+#countdown .happening {
+  color: lime;
+}
+#countdown .finished {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+@font-face {
+  font-family: "Arciform";
+  src: url("/public/fonts/arciform.otf");
+}
+.font-title, .home #intro #title .inner, #byte_it_ad .title, h1 {
+  font-family: "Arciform", sans-serif;
+  font-weight: 400;
+}
+
+.font-standard, body {
+  font-family: "Saira", sans-serif;
+  font-weight: 400;
+}
+
+.font-condensed, .home #intro #subtitle .inner {
+  font-family: "Saira Condensed", sans-serif;
+  font-weight: 400;
+}
+
+.font-text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  text-align: justify;
+}
+
+h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+.transition-short, .button-link, #byte_it_ad .buttons a, a, #map .overlay a {
+  transition-duration: 0.15s;
+}
+
+* {
+  box-sizing: border-box;
+  transition-property: none;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+html, body {
+  margin: 0;
+}
+
+#wrapper {
+  display: block;
+  width: 100%;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 1.5rem 0;
+}
+
+.button-link, #byte_it_ad .buttons a, #map .overlay a {
+  line-height: 1;
+  display: inline-block;
+  font-size: 2rem;
+  border-style: solid;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  transition-property: color, background-color;
+}
+
+.box-shadow-1 {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+.box-shadow-2 {
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+}
+
+.box-shadow-3 {
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3);
+}
+
+a {
+  transition-property: color;
+  /*color: black;*/
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #00202A;
+}
+
+.spaced {
+  padding: 3rem;
+}
+
+blockquote {
+  font-size: 125%;
+  font-style: italic;
+}
+
+@media screen and (max-width: 450px) {
+  .separator {
+    display: none !important;
+  }
+
+  #copyright {
+    margin: 4rem 2rem 0 2rem !important;
+  }
+
+  .spaced {
+    padding: 0.5rem !important;
+  }
+}
+#byte_it_ad {
+  background: url("/public/graphics/bits.png"), #00202A;
+  transition: background-color 1s;
+  color: white;
+  text-align: center;
+}
+#byte_it_ad .title {
+  font-size: 3.5rem;
+  text-transform: none;
+  margin-bottom: 0;
+}
+#byte_it_ad .quote {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  opacity: 0.7;
+  text-align: center;
+}
+#byte_it_ad .date {
+  opacity: 0.9;
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+#byte_it_ad .buttons {
+  margin: 0;
+}
+#byte_it_ad .buttons a {
+  font-size: 1.25rem;
+  border-color: white;
+  color: white;
+  margin: 1rem 0.5rem;
+  padding: 0.75rem 1rem;
+  vertical-align: middle;
+}
+#byte_it_ad .buttons a .playbuttontext {
+  display: inline-block;
+  margin: auto;
+}
+#byte_it_ad .buttons a[disabled=true] {
+  opacity: 0.5;
+  cursor: default;
+}
+#byte_it_ad .buttons a[disabled=false]:hover {
+  background-color: white;
+  color: #00202A;
+}
+#byte_it_ad .buttons #countdown {
+  background: url("/public/graphics/bits.png"), #00202A;
+  color: white;
+  display: inline-block;
+  padding: 0 2rem;
+  border-radius: 0.5rem !important;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 550px) {
+  #byte_it_ad {
+    background: white !important;
+    color: #000 !important;
+  }
+
+  #byte_it_logo {
+    mix-blend-mode: difference;
+  }
+
+  .buttons {
+    mix-blend-mode: difference !important;
+  }
+}
+.home #title.top {
+  visibility: hidden;
+}
+.home #intro {
+  position: relative;
+  z-index: 1;
+  color: #bebebe;
+  mix-blend-mode: difference;
+}
+.home #intro #logo.big {
+  width: 100%;
+  padding: 0 2rem;
+  margin-top: 5rem;
+  filter: invert(100%);
+}
+.home #intro #logo.big img {
+  display: block;
+  width: auto;
+  height: auto;
+  min-height: 10rem;
+  max-height: calc(100vh - 23rem);
+  max-width: 100%;
+  margin: 0 auto;
+  opacity: 0.75;
+}
+.home #intro #title {
+  width: 100%;
+}
+.home #intro #title .inner {
+  text-transform: lowercase;
+  display: block;
+  width: 100%;
+  left: 0;
+  font-size: 6rem;
+  margin: 0rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 0rem;
+  text-align: center;
+  line-height: 1;
+  z-index: 2;
+}
+.home #intro #subtitle {
+  box-sizing: content-box;
+  width: 100%;
+  padding-bottom: 100vh;
+}
+.home #intro #subtitle .inner {
+  width: 100%;
+  text-align: center;
+  font-weight: 300;
+  margin: 0;
+  font-size: 1.5rem;
+  padding: 0 2rem;
+  left: 0;
+  z-index: 2;
+  visibility: hidden;
+  line-height: 1em;
+}
+.home #cover {
+  width: 100%;
+  height: calc(100vh - 4rem);
+  position: relative;
+  z-index: 0;
+}
+.home #cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.home #cover .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.home #about h3 {
+  text-align: center;
+}
+
+@media (max-width: 35rem), (max-height: 34rem) {
+  .home #title .inner {
+    font-size: 3rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+  }
+  .home #logo.big {
+    margin-top: 2rem;
+  }
+  .home #logo.big img {
+    max-height: calc(100vh - 23rem);
+  }
+}
+@media screen and (max-width: 450px) {
+  #subtitle > .inner {
+    transform: translateY(50%);
+    visibility: visible !important;
+    color: #bebebe !important;
+    opacity: 1 !important;
+  }
+
+  #subtitle {
+    padding: 0 !important;
+  }
+
+  #cover {
+    display: none;
+  }
+
+  #about > p {
+    font-size: 1.2em;
+    margin-left: 2vw;
+    margin-right: 2vw;
+  }
+}
+
+/*# sourceMappingURL=PAGE_home.css.map */

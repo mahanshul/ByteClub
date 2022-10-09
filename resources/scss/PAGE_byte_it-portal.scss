@@ -1,0 +1,51 @@
+@import 'base';
+@import 'colors';
+table {
+	thead {
+		background: $accent;
+		color: white;
+	}
+
+	td {
+		padding: .4rem;
+	}
+
+	*{
+		border: 1px solid $accent;
+	}
+	border-collapse: collapse;
+	font-family: 'consolas', 'courier',monospace;
+	overflow: auto;
+}
+.search {
+	width: 100%;
+	font-size: 16px;
+	padding: 12px ;
+	border: 1px solid #ddd;
+	margin-bottom: 12px;
+}
+// .icon{
+//         float: right;
+//         margin-top: 1vw;
+//     }
+    .panel {
+    padding: 0 18px;
+    // background-color: #fff;
+    display: none;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+    }
+    .active {
+        background-color: rgba(47, 255, 57, 0.041);
+    }
+    .accordion {
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    background: #00aeef;
+}

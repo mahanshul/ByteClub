@@ -1,0 +1,1 @@
+<div class="year"><?=$member_year?></div>

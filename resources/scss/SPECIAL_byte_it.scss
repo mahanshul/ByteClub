@@ -1,0 +1,198 @@
+@import '_base';
+@import '_sidebar';
+@import '_form';
+@import '_rules';
+
+#wrapper
+{
+	display: flex;
+	#byte_it.sidebar
+	{
+		background-color: rgba(0,0,0,0.025);
+		min-width: 17rem;
+		max-width: 17rem;
+		padding: 2rem 1rem;
+		border-right: solid 0.0625rem rgba(0,0,0,0.125);
+		> *
+		{
+			margin: 0;
+			padding-bottom: 1rem;
+		}
+		h2
+		{
+			@extend .font-condensed;
+			font-weight: 700;
+			text-transform: none;
+			font-size: 2.25rem;
+			padding-left: 1rem;
+			padding-right: 1rem;
+			text-align: center;
+		}
+		.menu_group
+		{
+			border-top: solid 0.0625rem rgba(0,0,0,0.2);
+			padding: 1rem;
+			> *
+			{
+				margin: 0;
+			}
+			h3
+			{
+				font-size: 2rem;
+				margin-bottom: 1rem;
+				margin-top: 1rem;
+				line-height: 1;
+			}
+			ul 
+			{
+				list-style: none;
+				padding-left: 0;
+				li
+				{
+					a
+					{
+						@extend .transition-short;
+						font-weight: 400;
+						transition-property: background-color;
+						display: block;
+						padding: 0.5rem 1rem;
+						padding-left: 2rem;
+						color: inherit;
+						text-decoration: none;
+						width: calc(100% + 2rem);
+						position: relative;
+						left: -1rem;
+						border-left: solid 0.25rem transparent;
+					}
+					a.current
+					{
+						border-color: $accent;
+					}
+					a:hover
+					{
+						background-color: rgba(0,0,0,0.075);
+					}
+				}
+			}
+		}
+	}
+	main
+	{
+		width: 100%;
+	}	
+}
+
+//RULES ACCORDION BEGIN
+
+$spacing: 24px;
+$plus-size: 16px;
+$plus-thickness: 2px;
+$speed: 200ms;
+$easing: ease-in-out;
+$gray-dark: #546e7a;
+$gray: #cfd8dc;
+$gray-light: #eceff1;
+$primary: $accent;
+
+.wrapper {
+  max-width: 75rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: $spacing*2;
+}
+
+.details-group {
+  border: 1px solid $gray;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.details {
+  overflow: hidden;
+  border-bottom: 1px solid $gray;
+  transition: height $speed $easing;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+
+  &__summary,
+  &__content {
+    padding: $spacing;
+  }
+
+  &__summary {
+    position: relative;
+    list-style: none; // Hide the marker (proper method)
+    padding-left: $spacing*2;
+    outline: 0;
+    cursor: pointer;
+    font-size: 1.4rem;
+    font-family: Oswald;
+    text-transform: uppercase;
+    transition: color $speed $easing;
+
+    [open] > & {
+      color: $primary;
+    }
+
+    // Hide the marker in Webkit
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    // Our replacement marker
+    &:before,
+    &:after {
+      content: "";
+      position: absolute;
+    }
+
+    &:before {
+      left: $spacing/2 + $plus-size/2;
+      top: 50%;
+      height: $plus-thickness;
+      margin-top: -$plus-thickness/2;
+      width: $plus-size;
+      background: $primary;
+    }
+
+    &:after {
+      left: $spacing/2 + $plus-size;
+      top: 50%;
+      height: $plus-size;
+      margin-top: -$plus-size/2;
+      width: $plus-thickness;
+      margin-left: -$plus-thickness/2;
+      background: $primary;
+      transition: all $speed $easing;
+    }
+
+    [open] &:after {
+      opacity: 0;
+      transform: translateY(25%);
+    }
+  }
+
+  &__content {
+    padding-top: 0;
+    padding-left: $spacing*2;
+  }
+}
+.info {
+	float: right;
+	margin: 0 .8rem;
+	font-size: .7em;
+	padding: .3rem;
+	&.category {
+		background-color: $accent !important;
+		color: white !important;
+	}
+}
+//RULES ACCORDION END
+@media screen and (max-width: 550px){
+	// .details{
+	// 	height: 78px;
+	// }
+
+}

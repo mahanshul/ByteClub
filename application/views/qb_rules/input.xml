@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<event name="Open Creative">
+		<brief>Design, develop, describe stuff.</brief>
+		
+		<list>
+			<r>Members per team: Max 3 or Min 1</r>
+		</list>
+		<list name="Rules">
+		
+		<r> All the work has to be done from home and submitted to us via email. Each team must make a zip file and send us the file at info@byteclub.in by 22nd May 2019</r>
+
+		<r>Theme: You are an employee at Apple Inc. and along with an amazing team of engineers, you have developed a revolutionary product called "Apple Juice". It's a packaged bottle of Apple Juice that can do amazing things. Now, if you wish to save your job, you must make marketing material for this product.</r>
+
+		<r>Accepted entry types: (Create at least one of the things from this list. Making more than two will be highly appreciated.)
+			<list>
+				<r>Video: The participants will have to create a product video for the launch event</r>
+				<r>Website: Website with the features and functionality of the product.</r>
+				<r>Banner: Product Banner</r>
+				<r>Presentation: Presentation for the launch keynote</r>
+				<r>3D-CAD Design: A 3D-CAD model of your Apple Juice bottle</r>
+			</list>
+		</r>
+
+		<r>Note: We would like to see more of Product Videos and Websites.</r>
+		<r>All entries have to be digital. Handmade banners are not allowed.</r>
+		<r>Plagiarism is strictly prohibited. You are not allowed to use copyrighted content from the internet. Anyone found using copyrighted images, sounds et cetera shall be disqualified.</r>
+		<r>Recommended technologies for the website:
+			<list>
+				<r>HTML 5.x</r>
+				<r>CSS 3</r>
+				<r>SCSS(Optional but recommended)</r>
+				<r>JavaScript</r>
+			</list>
+		</r>
+		<r>Recommended text editors for ease of development of the website:
+			<list>
+				<r>Sublime Text</r>
+				<r>Visual Studio Code</r>
+				<r>Atom</r>
+				<r>Brackets</r>
+				<r>Vim</r>
+			</list>
+		</r>
+		<r>Recommended software for the video:
+			<list>
+				<r>Vegas</r>
+				<r>Adobe Premiere Pro</r>
+				<r>Adobe After Effects</r>
+				<r>Adobe Animate</r>
+				<r>Maya</r>
+				<r>Final Cut Pro</r>
+			</list>
+		</r>
+		<r>Recommended software for the poster: 
+			<list>
+				<r>Adobe PhotoShop</r>
+				<r>Adobe Illustrator</r>
+				<r>GIMP</r>
+			</list>
+		</r>
+		<r>Recommended platform for presentations:
+			<list>
+				<r>PowerPoint 2013 and above</r>
+			</list>
+		</r>
+		<r>Recommended platform for CAD design:
+			<list>
+				<r>OnShape</r>
+				<r>AutoCAD</r>
+				<r>SolidWorks</r>
+				<r>Sketchup</r>
+			</list>
+		</r>
+		<r>Prohibited Software:
+			<list>
+				<r>Windows Movie Maker</r>
+				<r>VivaVideo</r>
+				<r>TikTok</r>
+				<r>Filmora</r>
+				<r>Microsoft FrontPage</r>
+				<r>Adobe Dreamweaver</r>
+			</list>
+		</r>
+		</list>
+		
+	</event>
+	<event name="Skill Assessment" category="Required">
+		<r>Members per team: 1</r>
+		<list name="Rules">
+			<r>It is an onsite pen paper skill assessment test that is mandatory for all Quick Byte participants.</r>
+			<r>Any team/individual that does not appear for the Skill Assessment shall be disqualified from their respective event(s).</r>
+			<r>The topic(s) which will be tested shall be declared on the day of the test itself.</r>
+			<r>No preparation for the test is required.</r>
+			<r>It will be held on 15th, Wednesday in the Senior Computer Lab in the 0pd.</r>
+		</list>
+	</event>
+</root>

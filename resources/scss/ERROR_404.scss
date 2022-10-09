@@ -1,0 +1,25 @@
+@import "_colors";
+@import "_base";
+
+body{
+	background-color: $accent;
+	color: white;
+	.spaced{
+		text-align: center;
+		.i{
+			font-size: 2rem;
+			opacity: 0.7;
+		}
+		.j{
+			font-size: 2rem;
+		}
+		img{
+			max-width:50vw;
+			height: auto;
+		}
+	}
+	.button-link {
+		color: white;
+		padding: .5rem;
+	}
+}

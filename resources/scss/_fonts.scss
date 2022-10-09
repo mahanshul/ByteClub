@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500,700|Saira:400,500,600,700|Saira+Condensed:300,400,600');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+@font-face {
+	font-family: "Arciform";
+	src: url('/public/fonts/arciform.otf');
+}
+
+.font-title
+{
+	font-family: "Arciform", sans-serif;
+	font-weight: 400;
+}
+
+.font-standard
+{
+	font-family: "Saira", sans-serif;	
+	font-weight: 400;
+}
+
+.font-condensed
+{
+	font-family: "Saira Condensed", sans-serif;	
+	font-weight: 400;
+}
+
+.font-text
+{
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	text-align: justify;
+}
+
+body
+{
+	@extend .font-standard;
+}
+
+h1
+{
+	@extend .font-title;
+}
+
+h2, h3, h4, h5, h6
+{
+	font-weight: 400;
+}
+
+h2
+{
+	font-size: 2.5rem;
+}
+
+h3
+{
+	font-size: 2rem;
+}
+
+h4
+{
+	font-size: 1.5rem;
+}
+
+h5
+{
+	font-size: 1.25rem;
+}

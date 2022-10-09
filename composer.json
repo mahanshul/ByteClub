@@ -1,0 +1,16 @@
+{
+	"description": "The website of Byte Club - The Computer Club of Bal Bharati Public School, Pitampura",
+	"name": "byteclub",
+	"type": "project",
+	"license": "GPL-3.0",
+	"homepage": "http://byteclubdeveloper.ishpreet.tech/",
+	"require": {
+		"php": ">=5.3.7"
+	},
+	"suggest": {
+	},
+	"require-dev": {
+		"paragonie/random_compat": "^1|^2",
+		"rmccue/requests": ">=1.0"
+	}
+}

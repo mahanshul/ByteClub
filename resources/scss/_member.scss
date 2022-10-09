@@ -1,0 +1,112 @@
+.member
+{
+	@extend .transition-short;
+	@extend .box-shadow-2;
+	transition-property: box-shadow;
+	width: 11.5rem;
+	background-color: $dark_accent;
+	overflow: hidden;
+	text-decoration: none;
+	border-radius: 0.5rem;
+	> *
+	{
+		width: 100%;
+	}		
+	.image
+	{
+		position: relative;
+		height: 9rem;
+		overflow: hidden;
+		> *
+		{
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+		.default
+		{
+			z-index: 0;
+			background-color: $accent;
+			position: relative;
+			overflow: hidden;
+			.icon
+			{
+				color: white;
+				opacity: 0.5;
+				font-size: 9rem;
+				position: absolute;
+				bottom: 0rem;
+				left: 1.25rem;
+			}
+		}
+		.real
+		{
+			@extend .transition-short;
+			transition-property: transform;
+			z-index: 1;
+			object-fit: cover;
+		}
+	}
+	.info
+	{
+		color: white;
+		> *
+		{
+			margin: 0;
+			padding: 0 0.5rem;
+			line-height: 1;
+		}
+		.name
+		{
+			@extend .font-condensed;
+			font-size: 1.125rem;
+			opacity: 0.9;
+			padding-top: 0.5rem;
+			padding-bottom: 0.5rem;
+			background-color: rgba(255,255,255,0.1);
+		}
+		.designation
+		{
+			font-weight: 400;
+			margin-top: 0.5rem;
+			margin-bottom: 0.5rem;
+			.post
+			{
+				opacity: 0.75;
+			}
+			.year
+			{
+				line-height: 1;
+				opacity: 0.5;
+			}
+		}
+	}
+}
+
+.line.big .member
+{
+	min-width: 14rem;
+	.image
+	{
+		height: 11.5rem;
+		.default
+		{
+			.icon
+			{
+				font-size: 11.5rem;
+			}
+		}
+	}	
+}
+
+
+.member.link:hover
+{
+	@extend .box-shadow-3;
+	.image .real
+	{
+		transform: scale(1.125) rotate(-2deg);
+	}
+}

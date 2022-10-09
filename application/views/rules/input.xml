@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<event name="Build.IT" category="VI-XII">
+		<brief>Dream. Develop. Design.</brief>
+		
+		<list>
+			<r>Eligibility: 6-12</r>
+			<r>Teams per institution: max 1</r>
+			<r>Participants per team: 4</r>
+			<r>Format: Online prelims and offline finals</r>
+		</list>
+		<list name="General Rules">
+		<r> Plagiarism is strictly prohibited.</r>
+		<r>The source of each font, framework, library, download package and any external assets not created by you must be declared.</r>
+		<r>Use of templates is highly discouraged.</r>
+		</list>
+		<list name="Preliminary Round">
+			<r>The prompt will be revealed on August 16th 2022, 00:00:00 IST on the Discord server and at <link url="//byteclub.me/byte_it/build_prelim">byteclub.me/byte_it/build_prelim</link> on the basis of which participants will have to design multiple assets.</r>
+			<r>A Google Form link will be provided to the participants, where they must submit a link to a Google Drive folder containing all the created assets and externally sourced material.</r>
+			<r>The last date of submission is August 21st 2022, 23:59:59 IST.</r>	
+			<r>The top 5 to 8 teams will be invited to the final round.</r>
+		</list>
+		<list name="Final Round">
+			<r>The final round will take place in the form of a 24 hour hackathon.</r>
+			<r>The prompt will be released offline on August 24th, 2022. The teams will have 24 hours to develop their idea.</r>
+			<r>The teams will be required to pitch their idea offline on August 25th, 2022.</r>
+			<r>The winner will be decided on the basis of the idea, design and pitching.</r>
+
+		</list>
+	</event>
+	<event name="Programming" category="VI-XII">
+	<brief>Code. Compile. Conquer.</brief>
+		<r>Teams per institution: 1</r>
+		<r>Members per team: 2</r>
+		<r>Eligibility: 6-12</r>
+		<r>Format: Online prelims and offline finals</r>
+		<list name="Programming Environment">
+			<r>Permitted languages: C, C++, C#, Java, Objective C, Javascript, Python, Ruby, PHP, Lua, ERLANG, Go, Clojure, R, Swift. For more details, visit <link url ="//hackerrank.com/environment">hackerrank.com/environment</link></r>
+		</list>
+		<list name="General Rules">
+		<r>The event will be conducted through HackerRank. Participants need to create their own HackerRank accounts.</r>
+		<r>All languages supported by HackerRank can be used by the participants.</r>
+		</list>
+		<list name="Preliminary Round">
+		<r>Prelims will be conducted online on August 20th, 2022, between 18:00:00 IST and 20:00:00 IST.</r>
+		<r>The best performers from the preliminary round will be invited to participate in the final round.</r>
+
+		</list>
+		<list name="Final Round">
+		<r>The final round will be held offline on August 25th, 2022, between 10:00:00 IST and 13:00:00 IST.</r>
+		<r>Participants will need to login using their own HackerRank accounts on the school systems.</r>
+		</list>
+	</event>
+			<event name="Tech Talk" category="VI-XII">
+	<brief>Think Different.</brief>
+		<r>Teams per institution: 1</r>
+		<r>Members per team: 1</r>
+		<r>Eligibility: 6-12</r>
+		<r>Format: Online prelims and offline finals</r>
+		<list name="Preliminary Round">
+		<r>The prompt for the preliminary round will be released on the Discord server and at <link url="//byteclub.me/byte_it/gd_prelim">byteclub.me/byte_it/gd_prelim</link> on August 16th, 2022 at 00:00:00 IST. </r>
+		<r>Participants are required to submit a video less than 120 seconds, expressing their views on the given topic.</r>
+		<r>Participants must submit the video in the form of a link to an unlisted YouTube video at (form link). The last date for submission is August 21st, 2022 at 23:59:59 IST.</r>
+		<r>Creators of the top submissions will be invited to compete in the final round.</r> 
+		</list>
+		<list name="Semi Final and Final Round">
+			<r>The semifinalists will participate in an offline round on 24th August, 2022, after which finalists will go on to partake in the discussion on 25th August 2022. </r>
+			<r>The topics and requirements will be announced on the spot.</r>
+		</list>
+	</event>
+
+	<event name="Snap.IT" category="VI-XII">
+	<brief>Your imagination is the only limit in the world of photography.</brief>
+	<r>Teams per institution: 1</r>
+		<r>Members per team: 1</r>
+		<r>Eligibility: 6-12</r>
+		<r>Format: Online prelims and offline finals</r>
+		<list name="Preliminary Round">
+			<r>The prompt will be revealed on August 16th, 2022, 00:00:00 IST on the Discord server and at <link url="//byteclub.me/byte_it/snap_prelim">byteclub.me/byte_it/snap_prelim</link></r>
+			<r>All the participants must submit their original photographs online (in camera raw format) along with the edited version (if any) by August 21st, 2022, 23:59:59 IST. A Google Form link will be provided for submission.</r>
+			<r>The photograph should be accompanied by a caption and a short description explaining the thought behind the photograph.</r>
+			<r>Only minimal editing is allowed: light and colour correction, cropping, rotation etc. Photo compositing or manipulation, heavy colour grading and VFX are not allowed.</r>
+		</list>
+		<list name="Final Round">
+			<r>The top 6 to 8 participants will qualify for the final round.</r>
+			<r>The event will be held offline on August 24th, 2022. The prompt will be revealed on the spot.</r>
+			<r>The participants are required to bring their own DSLR cameras.</r>
+		</list>
+	</event>
+
+	<event name="Surprise" category="VI-XII">
+		<brief>Riddle me bit, riddle me byte.</brief>
+		<r>Teams per institution: 1</r>
+		<r>Members per team: 2</r>
+		<r>Eligibility: 6-12</r>
+		<r>Format: Online prelims and offline finals</r>
+		<list name="Preliminary Round">
+			<r>Prelims will be held online on August 19th, 2022.</r>
+			<r>A link to the Discord server for the prelims will be mailed to all participants prior to the event. It is mandatory to join the server. Participants should contact the event incharge in case they do not receive a link.</r>
+			<r>The top 8 teams will qualify for the final round.</r>
+		</list>
+		<list name="Final Round">
+			<r>The final round will be held offline on August 25th, 2022. Further details will be provided to the preliminary round qualifiers.</r>
+		</list>
+	</event>
+
+	<event name="Quiz" category="VI-XII">
+	<brief>Are you the Quiz-Pro-Duo?</brief>
+	<r>Teams per institution: 1</r>
+		<r>Members per team: 2</r>
+		<r>Eligibility: 6-12</r>
+		<r>Format: Online prelims and offline finals</r>
+		<list name="Rules">
+			<r>The quiz will test Tech Industry knowledge and Computer Science Skills</r>
+		</list>
+		<list name="Preliminary Round">
+			<r>You will be given a common set of questions and the participants will have 30 minutes in order to answer them.</r>
+			<r>The prelims will be held online on August 19th, 2022.</r>
+		</list>
+		<list name="Final Round">
+			<r>Top 6 teams from the prelims will qualify for the finals.</r>
+			<r>The final round will be held offline on August 24th, 2022.</r>
+		</list>
+	</event>
+
+	<event name="Crypt.IT" category="VI-XII">
+	<brief>Skill or Skill Issue?</brief>
+	<r>Teams per institution: 1</r>
+	<r>Participants per team: Infinite</r>
+	<r>Eligibility: 6-12</r>
+	<r>Format: Online</r>
+		<list name="Rules">
+						<r>Our cryptic hunt, Crypt.IT will commence on August 21nd, 2022 at 10:00:00 IST , and will conclude on August 22rd,  2022 at 22:00:00 IST.
+The hunt will take place at <link url="https://crypt.byteclub.me">crypt.byteclub.me</link>.</r>
+						<r>Hints shall be provided on a separate Discord server whose link will be shared before the event starts. Account details will also be provided before the hunt.</r>
+						<r>Join our Discord Server to stay updated.</r>
+						<r>Note: Independent participation is not allowed. The whole school will play as a team.</r>
+						<r>Rules and Ethics:</r>
+							<list>
+								<r>COOPERATION: No cooperation between teams with independent accounts. Sharing of keys or providing revearng hints to other teams is cheating, don’t do it.</r>
+								<r>ATTACKING SCOREBOARD: No attacking the competition infrastructure. If bugs or vulns are found, please alert the competition organizers immediately.</r>
+								<r>SABOTAGE: Absolutely no sabotaging of other competing teams, or in any way hindering their independent progress.</r>
+								<r>BRUTEFORCING: No brute forcing of challenge flag/ keys against the scoring site.</r>
+								<r>DENIAL OF SERVICE: DoSing the platform or any of the challenges is forbidden.</r>
+							</list>
+		</list>
+
+	</event>
+
+	<event name="Gaming" category="VI-XII">
+		<brief>Play it. Win it. Flex it.</brief>
+		<r>Teams per institution: 1</r>
+		<r>Members per team: 1</r>
+		<r>Eligibility: 6-12</r>
+		<r>Format: Online prelims and offline finals</r>
+		<list name="Rules">
+			<r>Use of 3rd party assets, cheats etc. is strictly prohibited.</r>
+			<r>Participants are required to be punctual.</r>
+			<r>The games will be revealed 1 day before the event on the Discord server.</r>
+		</list>
+		<list name="Preliminary Round">
+			<r>The prelims will be held online on August 19th, 2022.</r>
+			<r>The number of rounds will depend on the number of participants.</r>
+			<r>The top 16 participants will qualify for the final knockout rounds.</r>
+		</list>
+		<list name="Final Round">
+			<r>The final knockout rounds will be held offline on both August 24th and 25th, 2022.</r>
+			<r>The top teams after each match will qualify for the next round.</r>
+		</list>
+	</event>
+	<event name="3D Innovate" category="VI-XII">
+	<brief>Think. Innovate. Create.</brief>
+	<r>Teams per institution: max 1</r>
+		<r>Members per team: 2</r>
+		<r>Eligibility: 8-12</r>
+		<r>Format: Online prelims and offline finals</r>
+		<list name="Preliminary Round">
+			<r>Participants have to create a useful innovative product or prototype using 3D printing.</r>
+			<r>Additional elements can be added to enhance their innovation.</r>
+			<r>The theme will be provided on August 16th, 2022 at 00:00:00 IST at <link url="https://byteclub.me/byte_it/threeD_prelim">https://byteclub.me/byte_it/threeD_prelim</link>.</r>
+			<r>A Google Form link will be provided to the participants, where they must submit a link to a Google Drive folder containing all the created assets and externally sourced material.</r>
+			<r>The last date of submission is August 23rd, 2022, 23:59:59 IST.</r>
+		</list>
+		<list name="Final Round">
+			<r>Participants are required to pitch their product to the judges offline on 25th August 2022, followed by a QnA session.</r>
+		</list>
+	</event>
+	<event name="TinkerThon" category="VI-XII">
+	<brief>Innovation is the only way to win.</brief>
+	<r>Teams per institution: max 1</r>
+		<r>Members per team: 2</r>
+		<r>Eligibility: 6-12</r>
+		<r>Format: Offline</r>
+		<list name="Rules">
+			<r>A theme/problem will be provided to the teams on the spot for which teams will have
+to develop a solution over 24 hours.</r>
+			<r>The solution can be presented as a media presentation, model or a software/ hardware prototype.</r>
+			<r>Participants have to bring their own devices with requisite softwares preinstalled. Internet access will be provided.</r>
+		</list>
+	</event>
+
+	<event name="Junior Design" category="VI-IX">
+	<brief>Ideas, Creativity, Design.</brief>
+	<r>Teams per institution: 1</r>
+		<r>Members per team: 2</r>
+		<r>Eligibility: 6-9</r>
+		<r>Format: Online</r>
+		<list name="Rules">
+		<r>The prompt will be revealed on August  16th, 2022, 00:00:00 IST on the Discord server and at <link url="//byteclub.me/byte_it/jrdes_prompt">byteclub.me/byte_it/jrdes_prompt</link></r>
+		<r>A Google Form link will be provided to the participants where they must submit a link to a Google Drive folder by 23:59:59 IST on August 21st, 2022.</r>
+		<r>The folder submitted should include a png/svg of the design along with the source files and all stock media used (if any).</r>
+		<r>Plagiarism is strictly prohibited. Usage of templates is discouraged and participants should create their own graphics instead. </r>
+		<r>Stock media must not be used without an appropriate license. Participants must declare the source of all the stock media used.</r>
+		<r>Participants may use the software of their choice.</r>
+		</list>
+	</event>
+
+	<event name="Present.IT" category="II-V">
+	<brief>Unleash Your Creativity</brief>
+	<r>Teams per institution: 1</r>
+		<r>Members per team: 1</r>
+		<r>Eligibility: 2-5</r>
+		<r>Format: Online</r>
+		<list name="Rules">
+			<r>Plagiarism is strictly prohibited.</r>
+			<r>The theme for the presentation will be released on Wednesday, August 16th, 2020 at 10:00 am IST at <link url="//byteclub.me/byte_it/present_prelim">byteclub.me/byte_it/present_prelim</link></r>
+			<r>Participants will have to make a presentation on the specified theme. The guidelines will be provided along with the theme.</r>
+			<r>The presentation will have to be submitted by 23:59:59 IST on August 21st, 2022 through a Google Form link that will be provided to the participants.</r>
+			<r>Participants may use the software of their choice.</r>
+		</list>
+	</event>
+
+
+</root>

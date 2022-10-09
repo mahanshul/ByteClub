@@ -1,0 +1,113 @@
+@import '_base';
+@import '_form';
+@import '../vendor/font-awesome/scss/font-awesome';
+
+.contact
+{
+	#message-form
+	{
+		#inner
+		{
+			.form-field
+			{
+				width: 100%;
+			}
+		}
+		.button-button
+		{
+			margin: 1rem 0;
+		}
+		#message-fieldset
+		{
+			h4
+			{
+				margin: 0;
+			}
+		}
+	}
+	.server-message
+	{
+		color: white;
+		padding: 2rem;
+		margin: 1rem 0;
+		border: solid 0.125rem transparent;
+		border-radius: 0.5rem;
+		display: none;
+		> *
+		{
+			margin: 0;
+		}
+		h4
+		{
+			font-size: 2.5rem;
+			text-transform: uppercase;
+			margin-bottom: 0.25rem;
+			font-weight: 700;	
+			.icon
+			{
+				font-size: 3rem;
+				position: relative;
+				top: 0.5rem;
+			}
+		}
+		h5
+		{
+			font-size: 1.25rem;
+			margin-bottom: 1rem;
+		}
+		p
+		{
+			color: black;
+			opacity: 0.75;
+			font-size: 1.125rem;
+			a
+			{
+				color: black;
+				font-weight: 700;
+			}			
+		}
+	}
+	#error-message
+	{
+		color: $error_red;
+		border-color: $error_red;
+	}
+	#success-message
+	{
+		color: $success_green;
+		border-color: $success_green;
+	}
+	#loader-message
+	{
+		color: black;
+		height: 6.5rem;
+		width: 100%;
+		padding: 1rem 0;
+		.text
+		{
+			padding-left: 2rem;
+			padding-right: 2rem;
+			text-align: left;
+		}
+		.bytes
+		{
+			width: 100%;
+		}
+	}
+
+	.social
+	{
+		margin-top: 4rem;
+	}
+}
+@media screen and (max-width : 450px){
+	#contact_mob{
+		transform : scale(0.8);
+	}
+	.form-field > div{
+		padding: 1vh;
+	}
+	.error{
+		font-size: 2.5vh;
+	}
+}
